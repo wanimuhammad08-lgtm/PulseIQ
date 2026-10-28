@@ -1,0 +1,16 @@
+patient_sk,gender,age_bracket,race,total_encounters,first_admission_id,last_admission_id
+PAT_000041d099720ed8,Male,[60-70),Caucasian,1,ENC_f0c02b5bc3eae0bf,ENC_f0c02b5bc3eae0bf
+PAT_00008f19cb9dc8b5,Female,[80-90),Caucasian,1,ENC_68d3c0a259f5471d,ENC_68d3c0a259f5471d
+PAT_0001e33b753221e5,Female,[70-80),Caucasian,1,ENC_d4b54a092a0eaa3c,ENC_d4b54a092a0eaa3c
+PAT_0002d834bba60515,Female,[80-90),Caucasian,1,ENC_7567655e2ca70241,ENC_7567655e2ca70241
+PAT_000313ee7671e543,Female,[30-40),Caucasian,1,ENC_5f4966e47df5e701,ENC_5f4966e47df5e701
+PAT_000544993476b3f1,Male,[70-80),Caucasian,1,ENC_4662b3601d39d418,ENC_4662b3601d39d418
+PAT_000593c7cea4d500,Male,[40-50),AfricanAmerican,1,ENC_b9bc789e82a86a52,ENC_b9bc789e82a86a52
+PAT_0005e22372f4abd5,Female,[30-40),AfricanAmerican,2,ENC_2c4995befaa6ca0e,ENC_1e689e91bc27c901
+PAT_0006cd657cdd7b7e,Female,[20-30),AfricanAmerican,2,ENC_08699d6d1aa7e803,ENC_1f8975115291bf75
+PAT_000740c57bdebc68,Male,[60-70),AfricanAmerican,1,ENC_6762a4b1381ee8db,ENC_6762a4b1381ee8db
+PAT_0007ddf1815d8eb7,Female,[80-90),Caucasian,1,ENC_3e813a4b3ce5bbd6,ENC_3e813a4b3ce5bbd6
+PAT_000969255e2f66ea,Female,[60-70),Caucasian,1,ENC_3a513d1debf019e7,ENC_3a513d1debf019e7
+PAT_000a07aa9a01b793,Female,[80-90),Caucasian,2,ENC_543bca9c56a0eddf,ENC_83cad6161fd60eba
+PAT_000a7b527a1393f4,Female,[80-90),Caucasian,3,ENC_afaeefa38a1dd663,ENC_70927d9db71dfd64
+PAT_000a8617c0d9e073,Male,[60-70),Caucasian,2,ENC_ac9531bd0d2cbbc5,ENC_0ec9154227fcad32

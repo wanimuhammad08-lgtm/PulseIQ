@@ -1,0 +1,16 @@
+encounter_sk,diag_1_code,diag_1_category,diag_2_code,diag_2_category,diag_3_code,diag_3_category,number_diagnoses,has_diabetes_primary,has_circulatory_primary
+ENC_a8e2c5175ea3e696,250.83,Diabetes,?,Missing/Unknown,?,Missing/Unknown,1,1,0
+ENC_b8a9bee971ea4520,276,Other,250.01,Diabetes,255,Other,9,0,0
+ENC_3be0d802373403d9,648,Other,250,Diabetes,V27,Other,6,0,0
+ENC_8eef73c5c3368594,8,Other,250.43,Diabetes,403,Circulatory,7,0,0
+ENC_be16877e72a4ae0a,197,Neoplasms,157,Neoplasms,250,Diabetes,5,0,0
+ENC_f0b364fbf865dafe,414,Circulatory,411,Circulatory,250,Diabetes,9,0,1
+ENC_0561f999fdb0e737,414,Circulatory,411,Circulatory,V45,Other,7,0,1
+ENC_8af34e3b6db4604a,428,Circulatory,492,Respiratory,250,Diabetes,8,0,1
+ENC_6395fa030d31048f,398,Circulatory,427,Circulatory,38,Other,8,0,1
+ENC_a256fe1325d738f0,434,Circulatory,198,Neoplasms,486,Respiratory,8,0,1
+ENC_d1d8a789c3c2a239,250.7,Diabetes,403,Circulatory,996,Injury & Poisoning,9,1,0
+ENC_11b93d5e4ad8ac1a,157,Neoplasms,288,Other,197,Neoplasms,7,0,0
+ENC_5df797efc51bb979,428,Circulatory,250.43,Diabetes,250.6,Diabetes,8,0,1
+ENC_c3f3c2f43a9dda83,428,Circulatory,411,Circulatory,427,Circulatory,8,0,1
+ENC_feef60492114d836,518,Respiratory,998,Injury & Poisoning,627,Genitourinary,8,0,0

@@ -1,0 +1,24 @@
+{
+  "initial_raw_records": 101766,
+  "valid_curated_records": 99340,
+  "total_rejected_records": 2426,
+  "rejection_rate_percent": 2.38,
+  "missingness_summary": {
+    "max_glu_serum": {
+      "null_count": 96420,
+      "null_percentage": 94.75
+    },
+    "A1Cresult": {
+      "null_count": 84748,
+      "null_percentage": 83.28
+    }
+  },
+  "rejection_reasons_breakdown": {
+    "Patient Expired or Discharged to Hospice (Discharge ID: 11)": 1642,
+    "Patient Expired or Discharged to Hospice (Discharge ID: 13)": 399,
+    "Patient Expired or Discharged to Hospice (Discharge ID: 14)": 372,
+    "Patient Expired or Discharged to Hospice (Discharge ID: 19)": 8,
+    "Invalid or Missing Gender": 3,
+    "Patient Expired or Discharged to Hospice (Discharge ID: 20)": 2
+  }
+}

@@ -1,0 +1,31 @@
+version: '3.8'
+
+services:
+  api:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      - MODEL_PATH=models/best_model.pkl
+    volumes:
+      - ./models:/app/models
+    networks:
+      - mlops-network
+
+  streamlit:
+    build: .
+    command: streamlit run app/streamlit_app.py --server.port 8501
+    ports:
+      - "8501:8501"
+    volumes:
+      - ./data:/app/data
+      - ./models:/app/models
+      - ./app:/app/app
+    depends_on:
+      - api
+    networks:
+      - mlops-network
+
+networks:
+  mlops-network:
+    driver: bridge

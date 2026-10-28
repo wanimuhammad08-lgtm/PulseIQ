@@ -1,0 +1,26 @@
+artifact_path: file:C:/Users/wanim/Desktop/mlops/mlruns/1/models/m-2642e5b07155418c84000de909ca9961/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.skops
+    predict_fn: predict
+    python_version: 3.13.7
+  sklearn:
+    code: null
+    pickled_model: model.skops
+    serialization_format: skops
+    sklearn_version: 1.9.0
+    skops_trusted_types:
+    - sklearn.tree._tree.Tree
+    - xgboost.core.Booster
+    - xgboost.sklearn.XGBClassifier
+mlflow_version: 3.16.1
+model_id: m-2642e5b07155418c84000de909ca9961
+model_size_bytes: 5967975
+model_uuid: m-2642e5b07155418c84000de909ca9961
+prompts: null
+run_id: ce0fbdaf7c124b5eb0b54d358138ec9b
+utc_time_created: '2026-10-04 19:36:24.601223'

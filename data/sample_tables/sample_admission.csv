@@ -1,0 +1,16 @@
+encounter_sk,patient_sk,admission_type_id,admission_type_desc,discharge_disposition_id,discharge_disposition_desc,admission_source_id,admission_source_desc,time_in_hospital,payer_code,medical_specialty,num_lab_procedures,num_procedures,num_medications,number_outpatient,number_emergency,number_inpatient,prior_admissions,change_in_meds,diabetes_med_prescribed
+ENC_a8e2c5175ea3e696,PAT_33bd1ed684dedaff,6,NULL,25,Not Mapped,1,Physician Referral,1,?,Pediatrics-Endocrinology,41,0,1,0,0,0,0,No,No
+ENC_b8a9bee971ea4520,PAT_928bb286939e1247,1,Emergency,1,Discharged to home,7,Emergency Room,3,?,?,59,0,18,0,0,0,0,Yes,Yes
+ENC_3be0d802373403d9,PAT_245f9a3cb233441c,1,Emergency,1,Discharged to home,7,Emergency Room,2,?,?,11,5,13,2,0,1,3,No,Yes
+ENC_8eef73c5c3368594,PAT_ddd0b14358aaa380,1,Emergency,1,Discharged to home,7,Emergency Room,2,?,?,44,1,16,0,0,0,0,Yes,Yes
+ENC_be16877e72a4ae0a,PAT_fc81b9540c8edf7b,1,Emergency,1,Discharged to home,7,Emergency Room,1,?,?,51,0,8,0,0,0,0,Yes,Yes
+ENC_f0b364fbf865dafe,PAT_3feb98151bc96588,2,Urgent,1,Discharged to home,2,Clinic Referral,3,?,?,31,6,16,0,0,0,0,No,Yes
+ENC_0561f999fdb0e737,PAT_75123df5e604a015,3,Elective,1,Discharged to home,2,Clinic Referral,4,?,?,70,1,21,0,0,0,0,Yes,Yes
+ENC_8af34e3b6db4604a,PAT_113070059ace0c28,1,Emergency,1,Discharged to home,7,Emergency Room,5,?,?,73,0,12,0,0,0,0,No,Yes
+ENC_6395fa030d31048f,PAT_1c5dc157c9d92d39,2,Urgent,1,Discharged to home,4,Transfer from a hospital,13,?,?,68,2,28,0,0,0,0,Yes,Yes
+ENC_a256fe1325d738f0,PAT_10771def3e4e95a5,3,Elective,3,Discharged/transferred to SNF,4,Transfer from a hospital,12,?,InternalMedicine,33,3,18,0,0,0,0,Yes,Yes
+ENC_d1d8a789c3c2a239,PAT_b360b0f40ee66ba7,1,Emergency,1,Discharged to home,7,Emergency Room,9,?,?,47,2,17,0,0,0,0,No,Yes
+ENC_11b93d5e4ad8ac1a,PAT_7b483088c9244fa2,2,Urgent,1,Discharged to home,4,Transfer from a hospital,7,?,?,62,0,11,0,0,0,0,Yes,Yes
+ENC_5df797efc51bb979,PAT_179413137172d533,1,Emergency,3,Discharged/transferred to SNF,7,Emergency Room,7,?,Family/GeneralPractice,60,0,15,0,1,0,1,Yes,Yes
+ENC_c3f3c2f43a9dda83,PAT_2e732b9566eb1a2e,1,Emergency,6,Discharged/transferred to home with home health service,7,Emergency Room,10,?,Family/GeneralPractice,55,1,31,0,0,0,0,No,Yes
+ENC_feef60492114d836,PAT_ab26feec3139651b,3,Elective,1,Discharged to home,2,Clinic Referral,1,?,?,49,5,2,0,0,0,0,No,Yes

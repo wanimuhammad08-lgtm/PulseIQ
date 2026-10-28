@@ -1,0 +1,107 @@
+{
+  "patient_summary": {
+    "sample_file": ".\\data/sample_tables\\sample_patient_summary.csv",
+    "sample_row_count": 15,
+    "columns": [
+      "patient_sk",
+      "gender",
+      "age_bracket",
+      "race",
+      "total_encounters",
+      "first_admission_id",
+      "last_admission_id"
+    ]
+  },
+  "admission": {
+    "sample_file": ".\\data/sample_tables\\sample_admission.csv",
+    "sample_row_count": 15,
+    "columns": [
+      "encounter_sk",
+      "patient_sk",
+      "admission_type_id",
+      "admission_type_desc",
+      "discharge_disposition_id",
+      "discharge_disposition_desc",
+      "admission_source_id",
+      "admission_source_desc",
+      "time_in_hospital",
+      "payer_code",
+      "medical_specialty",
+      "num_lab_procedures",
+      "num_procedures",
+      "num_medications",
+      "number_outpatient",
+      "number_emergency",
+      "number_inpatient",
+      "prior_admissions",
+      "change_in_meds",
+      "diabetes_med_prescribed"
+    ]
+  },
+  "diagnosis": {
+    "sample_file": ".\\data/sample_tables\\sample_diagnosis.csv",
+    "sample_row_count": 15,
+    "columns": [
+      "encounter_sk",
+      "diag_1_code",
+      "diag_1_category",
+      "diag_2_code",
+      "diag_2_category",
+      "diag_3_code",
+      "diag_3_category",
+      "number_diagnoses",
+      "has_diabetes_primary",
+      "has_circulatory_primary"
+    ]
+  },
+  "readmission": {
+    "sample_file": ".\\data/sample_tables\\sample_readmission.csv",
+    "sample_row_count": 15,
+    "columns": [
+      "encounter_sk",
+      "raw_readmitted",
+      "readmitted_30d",
+      "readmitted_any",
+      "readmission_category"
+    ]
+  },
+  "healthcare_mart": {
+    "sample_file": ".\\data/sample_tables\\sample_healthcare_mart.csv",
+    "sample_row_count": 15,
+    "columns": [
+      "encounter_sk",
+      "patient_sk",
+      "race",
+      "gender",
+      "age_bracket",
+      "admission_type_desc",
+      "discharge_disposition_desc",
+      "admission_source_desc",
+      "time_in_hospital",
+      "payer_code",
+      "medical_specialty",
+      "num_lab_procedures",
+      "num_procedures",
+      "num_medications",
+      "number_outpatient",
+      "number_emergency",
+      "number_inpatient",
+      "prior_admissions",
+      "diag_1_code",
+      "diag_1_category",
+      "diag_2_category",
+      "diag_3_category",
+      "number_diagnoses",
+      "max_glu_serum",
+      "a1c_result",
+      "metformin",
+      "insulin",
+      "change_in_meds",
+      "diabetes_med_prescribed",
+      "raw_readmitted",
+      "readmitted_30d",
+      "readmitted_any",
+      "readmission_category"
+    ]
+  }
+}

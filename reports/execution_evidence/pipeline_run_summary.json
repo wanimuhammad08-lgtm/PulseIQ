@@ -1,0 +1,54 @@
+{
+  "execution_id": "RUN_1793188047",
+  "start_time_utc": "2026-10-28T11:47:27.475055+00:00",
+  "steps": {
+    "ingestion": {
+      "duration_seconds": 2.11,
+      "records_extracted": 101766,
+      "sha256": "0689e7ec031237dc63031b938805c48377748761a3b26acab621567afa24df97",
+      "status": "SUCCESS"
+    },
+    "data_quality": {
+      "duration_seconds": 11.76,
+      "initial_records": 101766,
+      "valid_records": 99340,
+      "rejected_records": 2426,
+      "rejection_rate_percent": 2.38,
+      "status": "SUCCESS"
+    },
+    "transformation": {
+      "duration_seconds": 70.68,
+      "tables_generated": [
+        "patient_summary",
+        "admission",
+        "diagnosis",
+        "readmission",
+        "healthcare_mart"
+      ],
+      "total_curated_encounters": 99340,
+      "unique_patients": 69987,
+      "status": "SUCCESS"
+    },
+    "database_storage": {
+      "duration_seconds": 17.81,
+      "loaded_counts": {
+        "patient_summary": 69987,
+        "admission": 99340,
+        "diagnosis": 99340,
+        "readmission": 99340,
+        "healthcare_mart": 99340
+      },
+      "verified_counts": {
+        "patient_summary": 69987,
+        "admission": 99340,
+        "diagnosis": 99340,
+        "readmission": 99340,
+        "healthcare_mart": 99340
+      },
+      "status": "SUCCESS"
+    }
+  },
+  "status": "SUCCESS",
+  "end_time_utc": "2026-10-28T11:49:09.839940+00:00",
+  "total_duration_seconds": 102.36
+}

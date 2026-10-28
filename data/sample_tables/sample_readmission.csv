@@ -1,0 +1,16 @@
+encounter_sk,raw_readmitted,readmitted_30d,readmitted_any,readmission_category
+ENC_a8e2c5175ea3e696,NO,0,0,No Readmission
+ENC_b8a9bee971ea4520,>30,0,1,>30 Days (Late Readmission)
+ENC_3be0d802373403d9,NO,0,0,No Readmission
+ENC_8eef73c5c3368594,NO,0,0,No Readmission
+ENC_be16877e72a4ae0a,NO,0,0,No Readmission
+ENC_f0b364fbf865dafe,>30,0,1,>30 Days (Late Readmission)
+ENC_0561f999fdb0e737,NO,0,0,No Readmission
+ENC_8af34e3b6db4604a,>30,0,1,>30 Days (Late Readmission)
+ENC_6395fa030d31048f,NO,0,0,No Readmission
+ENC_a256fe1325d738f0,NO,0,0,No Readmission
+ENC_d1d8a789c3c2a239,>30,0,1,>30 Days (Late Readmission)
+ENC_11b93d5e4ad8ac1a,<30,1,1,<30 Days (High Risk)
+ENC_5df797efc51bb979,<30,1,1,<30 Days (High Risk)
+ENC_c3f3c2f43a9dda83,NO,0,0,No Readmission
+ENC_feef60492114d836,>30,0,1,>30 Days (Late Readmission)

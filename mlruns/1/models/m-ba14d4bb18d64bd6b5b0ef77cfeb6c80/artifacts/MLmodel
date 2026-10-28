@@ -1,0 +1,23 @@
+artifact_path: file:C:/Users/wanim/Desktop/mlops/mlruns/1/models/m-ba14d4bb18d64bd6b5b0ef77cfeb6c80/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.skops
+    predict_fn: predict
+    python_version: 3.13.7
+  sklearn:
+    code: null
+    pickled_model: model.skops
+    serialization_format: skops
+    sklearn_version: 1.9.0
+    skops_trusted_types: null
+mlflow_version: 3.16.1
+model_id: m-ba14d4bb18d64bd6b5b0ef77cfeb6c80
+model_size_bytes: 613217
+model_uuid: m-ba14d4bb18d64bd6b5b0ef77cfeb6c80
+prompts: null
+run_id: 64b110d8a558488ca0fb6f845d8a9f6a
+utc_time_created: '2026-10-04 19:29:09.983754'
